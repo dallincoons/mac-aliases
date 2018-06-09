@@ -1,0 +1,19 @@
+alias gs="git status"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias nah="git reset --hard && git clean -df"
+alias phpunit="vendor/bin/phpunit"
+alias behat="vendor/bin/behat"
+alias paratest="vendor/bin/paratest --processes=8"
+alias phpspec="vendor/bin/phpspec"
+alias git-clean="git branch | grep -v "master" | xargs git branch -D"
+alias g="vendor/bin/phpunit --group="
+alias f="vendor/bin/phpunit --filter="
+alias art="php artisan"
+alias migrate="php artisan migrate"
+alias tinker='php artisan tinker'
+alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias zconfig='subl ~/.zshrc'
+alias aliases='subl ~/aliases'
+alias ava='node_modules/.bin/ava'
+alias xdebug='subl /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini'
+alias rm="trash"
